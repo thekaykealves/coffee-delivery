@@ -20,7 +20,7 @@ de compras de uma cafeteria fictícia com CONTEXT API.
 
 ### Ferramentas 🔨
 <ul>
-  <li><a href="https://pt-br.reactjs.org">React JS</a</li>
+  <li><a href="https://pt-br.reactjs.org" target="_blank">React JS</a</li>
   <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
   <li><a href="https://www.styled-components.com">Styled Components</a></li>
   <li><a href="https://reactrouter.com">React Router</a></li>
