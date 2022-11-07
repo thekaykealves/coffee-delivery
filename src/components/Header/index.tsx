@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { CoffeeContext } from '../../contexts/CoffeeContext'
 import { NavLink } from 'react-router-dom'
 
-import LogoCoffeeDelivery from '../../../public/logo-coffee-delivery.svg'
+import LogoCoffeeDelivery from '../../provider/coffeesImage/coffee-cup.png'
 
 import {
   DivLocation,
