@@ -29,7 +29,8 @@ export const DivColorContainer = styled.div<DivColorsProps>`
 
 export const HomeContainer = styled.main`
   height: 544px;
-  padding: 94px 0px;
+  padding: 198px 0 0 0;
+  margin-bottom: 108px;
   display: flex;
   justify-content: space-between;
   background-image: url(Background);

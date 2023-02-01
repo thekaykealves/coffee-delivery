@@ -25,7 +25,7 @@ export function CardCoffee(props: CardProps) {
       descriptionOfCoffee: props.descriptionOfCoffee,
       title: props.title,
       price: props.price,
-      amount: +1,
+      amount: props.amount + 1,
     }
 
     setAmountCardCoffees(amountCardCoffees + 1)
@@ -40,7 +40,7 @@ export function CardCoffee(props: CardProps) {
       descriptionOfCoffee: props.descriptionOfCoffee,
       title: props.title,
       price: props.price,
-      amount: -1,
+      amount: props.amount - 1,
     }
 
     if (amountCardCoffees === 0) {
@@ -66,7 +66,7 @@ export function CardCoffee(props: CardProps) {
         <CardCoffeeBuy>
           <DivPrice>
             R$
-            <strong>{props.price.toString().replace('.', ',')}</strong>
+            <strong>{props.price.toFixed(2).replace('.', ',')}</strong>
           </DivPrice>
 
           <CardButtonBuy>

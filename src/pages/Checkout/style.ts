@@ -4,7 +4,7 @@ export const CheckoutTitle = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
-  margin-top: 40px;
+  margin-top: 148px;
 
   h2 {
     margin-right: 240px;
@@ -18,6 +18,7 @@ export const NoCoffeeSelectedDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 148px;
 
   @media (min-width: 1536px) {
     margin-top: 150px;

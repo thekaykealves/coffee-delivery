@@ -20,6 +20,7 @@ export function OurCofes() {
                 typeOfCoffee={coffees.types}
                 descriptionOfCoffee={coffees.description}
                 price={coffees.price}
+                amount={coffees.amount}
               />
             )
           })}

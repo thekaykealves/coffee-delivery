@@ -47,7 +47,7 @@ export function ConfirmOrder() {
                 </DivButtonRemoveItem>
               </DivInfosCoffee>
 
-              <strong>R$ {coffee.price.toString().replace('.', ',')}</strong>
+              <strong>R$ {coffee.price.toFixed(2).replace('.', ',')}</strong>
             </HorizontalCardCoffee>
 
             <DivSeparator />

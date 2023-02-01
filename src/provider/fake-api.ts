@@ -19,7 +19,8 @@ export type Data = {
   types: string[]
   img: string
   id: number
-  price: string
+  price: number
+  amount: number
 }
 
 export const data: Data[] = [
@@ -29,7 +30,8 @@ export const data: Data[] = [
     description: 'O tradicional café feito com água quente e grãos moídos',
     types: ['tradicional'],
     img: tradicional,
-    price: (5.9).toFixed(2),
+    price: 5.9,
+    amount: 0,
   },
   {
     id: 2,
@@ -37,7 +39,8 @@ export const data: Data[] = [
     description: 'Expresso diluído, menos intenso que o tradicional',
     types: ['tradicional'],
     img: americano,
-    price: (9.9).toFixed(2),
+    price: 9.9,
+    amount: 0,
   },
   {
     id: 3,
@@ -45,7 +48,8 @@ export const data: Data[] = [
     description: 'Café expresso tradicional com espuma cremosa',
     types: ['tradicional'],
     img: cremoso,
-    price: (10.5).toFixed(2),
+    price: 10.5,
+    amount: 0,
   },
   {
     id: 4,
@@ -53,7 +57,8 @@ export const data: Data[] = [
     description: 'Bebida preparada com café expresso e cubos de gelo',
     types: ['tradicional', 'gelado'],
     img: gelado,
-    price: (9.9).toFixed(2),
+    price: 9.9,
+    amount: 0,
   },
   {
     id: 5,
@@ -61,7 +66,8 @@ export const data: Data[] = [
     description: 'Meio a meio de expresso tradicional com leite vaporizado',
     types: ['tradicional', 'com leite'],
     img: cafeComLeite,
-    price: (10.0).toFixed(2),
+    price: 10.0,
+    amount: 0,
   },
   {
     id: 6,
@@ -70,7 +76,8 @@ export const data: Data[] = [
       'Uma dose de café expresso com o dobro de leite e espuma cremosa',
     types: ['tradicional', 'com leite'],
     img: latte,
-    price: (12.5).toFixed(2),
+    price: 12.5,
+    amount: 0,
   },
   {
     id: 7,
@@ -79,7 +86,8 @@ export const data: Data[] = [
       'Bebida com canela feita de doses iguais de café, leite e espuma',
     types: ['tradicional', 'com leite'],
     img: capuccino,
-    price: (12.0).toFixed(2),
+    price: 12.0,
+    amount: 0,
   },
   {
     id: 8,
@@ -88,7 +96,8 @@ export const data: Data[] = [
       'Café expresso misturado com um pouco de leite quente e espuma',
     types: ['tradicional', 'com leite'],
     img: macchiato,
-    price: (15.0).toFixed(2),
+    price: 15.0,
+    amount: 0,
   },
   {
     id: 9,
@@ -96,7 +105,8 @@ export const data: Data[] = [
     description: 'Café expresso com calda de chocolate, pouco leite e espuma',
     types: ['tradicional', 'com leite'],
     img: mocaccino,
-    price: (12.5).toFixed(2),
+    price: 12.5,
+    amount: 0,
   },
   {
     id: 10,
@@ -104,7 +114,8 @@ export const data: Data[] = [
     description: 'Bebida feita com chocolate dissolvido no leite quente e café',
     types: ['especial', 'com leite'],
     img: chocolateQuente,
-    price: (10.0).toFixed(2),
+    price: 10.0,
+    amount: 0,
   },
   {
     id: 11,
@@ -113,7 +124,8 @@ export const data: Data[] = [
       'Drink gelado de café expresso com rum, creme de leite e hortelã',
     types: ['especial', 'alcoólico', 'gelado'],
     img: cubano,
-    price: (15.5).toFixed(2),
+    price: 15.5,
+    amount: 0,
   },
   {
     id: 12,
@@ -121,7 +133,8 @@ export const data: Data[] = [
     description: 'Bebida adocicada preparada com café e leite de coco',
     types: ['especial'],
     img: havaiano,
-    price: (12.5).toFixed(2),
+    price: 12.5,
+    amount: 0,
   },
   {
     id: 13,
@@ -129,7 +142,8 @@ export const data: Data[] = [
     description: 'Bebida preparada com grãos de café árabe e especiarias',
     types: ['especial'],
     img: arabe,
-    price: (13.5).toFixed(2),
+    price: 13.5,
+    amount: 0,
   },
   {
     id: 14,
@@ -137,6 +151,7 @@ export const data: Data[] = [
     description: 'Bebida a base de café, uísque irlandês, açúcar e chantilly',
     types: ['especial', 'alcoólico'],
     img: irlandes,
-    price: (18.0).toFixed(2),
+    price: 18.0,
+    amount: 0,
   },
 ]

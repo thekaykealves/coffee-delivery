@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const DivConfirmedOrder = styled.div`
+  margin-top: 188px;
+
   h2 {
     margin-top: 80px;
     margin-bottom: 4px;

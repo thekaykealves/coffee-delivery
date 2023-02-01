@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const FormContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  /* margin-top: 148px; */
 `
 
 export const WrapperContainer = styled.div`
