@@ -80,6 +80,7 @@ export function CardCoffee(props: CardProps) {
               </button>
             </div>
           </CardButtonBuy>
+
           <NavLink to="/checkout">
             <DivShoppingCart>
               <ShoppingCart size={22} weight="fill" />
